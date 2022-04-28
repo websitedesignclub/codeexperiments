@@ -1,2 +1,27 @@
-  <label for="login">login:</label><br>
-  <input type="text" id="login" name="fname" value="John"><br>
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>login page</title>
+</head>
+<form onsubmit="return myFunction()">
+  Login ID: <input type="text" id="login" size="20" name="fname"><br>
+  
+  <input type="submit" value="Submit"> 
+</form>
+
+<script>
+function myFunction() {
+
+  var loginid = document.getElementById("login").value;
+  submitOK = "true";
+
+  if (loginid = "3485") {
+   alert("hello world!");
+  } 
+
+}
+</script>
+
+</body>
+</html>
